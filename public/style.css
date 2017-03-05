@@ -3,80 +3,66 @@
 
 /* You might want to try something fancier: */
 /* less: http://lesscss.org/ */
-
-* {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Arimo|Oxygen|Supermercado+One');
+body{
+  background-image:url('http://wallpapercave.com/wp/PeE5fVb.jpg');
+  background-size:100% 200%;
+ 
 }
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 25px;
+header{
+  margin:auto;
+  
+  width:60%;
+  display:block;
 }
-
-h1 {
-  font-weight: bold;
-  color: pink;
+h1{
+  color:#9b9b9b;
+  font-size:40px;
+  font-family: 'Supermercado One', cursive;
 }
-
-.bold {
-  font-weight: bold;
+h2{
+ color:#9b9b9b;
+  font-size:30px;
+  font-family: 'Arimo', sans-serif;
 }
-
-p {
-  max-width: 600px;
+.explain{
+  width:100%;
+  height:120%;
+  color:white;
+  background:rgba(255, 255, 255, 0.4);
+  
 }
-
-form {
-  margin-bottom: 25px;
-  padding: 15px;
-  background-color: cyan;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
-  border-radius: 3px;
+.explain h3 {
+  font-size:20px;
+  font-weight:bold;
+  margin-left:20px;
 }
-
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-  font-size: 16px;
+.explain p{
+  font-size:20px;
+  margin-left:50px;
 }
-
-button {
-  font-size: 16px;
-  border-radius: 3px;
-  background-color: lightgrey;
-  border: 1px solid grey;
-  box-shadow: 2px 2px teal;
-  cursor: pointer;
+.usage{
+  width:100%;
+  height:120%;
+  color:white;
+  background:rgba(255, 255, 255, 0.4);
+  
 }
-
-button:hover {
-  background-color: yellow;
+.usage p{
+  margin-left:30px;
+  font-size:20px;
 }
-
-button:active {
-  box-shadow: none;
+.explain .usage{
+  font-family: 'Oxygen', sans-serif;
 }
-
-li {
-  margin-bottom: 5px;
+a {
+  color:#180000;
 }
-
-footer {
-  margin-top: 50px;
-  padding-top: 25px;
-  border-top: 1px solid lightgrey;
+footer{
+  margin:auto;
+  position:absolute;
+  bottom:40px;
 }
-
-footer > a {
-  color: #BBBBBB;
-}
-
-.nicejob {
-  text-decoration: line-through;
+footer a{
+  color:white;
 }
